@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/hills2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(53, 79, 21);
+}
+.background img{
+    width: 100%;
+}
+.button a{
+    margin-top: -500px;
+    margin-bottom: 300px;
+    margin-left: 40%;
+    width: 250px;
+    position: fixed;
+}
+.button a :hover{
+    width: 260px;
+    transition-duration: 700ms;
+}
+#springs img{
+    width: 100px;
+}
+#wheels img{
+    width: 100px;
+}
+#parts img{
+    width: 80px;
+}
+#cars img{
+    width: 400px;
+}
+#cars1 img{
+    width: 500px;
+}
+#driver img{
+    height: 200px;
+}
+
+#left-column{
+    width: 60%;
+    float: left;
+    background-image: url(images/garage.png);
+    background-size: contain;
+}
+#right-colomn img{
+    width:240px;
+    margin-left:140px;
+    margin-top:100px;
+}
+img#stickman{
+    width:240px;
+    margin-left:140px;
+    margin-top:100px;
+}
+
+img#logo{
+   position:fixed;
+   width:250px;
+   bottom:20px;
+   right:10px
+}
